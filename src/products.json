@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Polo Prada Milano Embossed",
+    "brand": "Prada",
+    "category": "polos",
+    "price": "S/ 120.00",
+    "tag": "Drop Exclusivo",
+    "sizes": ["S", "M"],
+    "image": "/img/Prada.png",
+    "description": "Relieve táctil premium en blanco puro. El equilibrio perfecto entre lujo minimalista y estética urbana."
+  },
+  {
+    "id": 2,
+    "name": "Polo Hugo Boss Black Edition",
+    "brand": "Hugo Boss",
+    "category": "polos",
+    "price": "S/ 110.00",
+    "tag": "Popular",
+    "sizes": ["S"],
+    "image": "/img/Hugo.png",
+    "description": "Tipografía destacada en pecho sobre algodón negro denso. Estilo limpio y presencia imponente."
+  },
+  {
+    "id": 3,
+    "name": "Polo Dolce & Gabbana Milano",
+    "brand": "Dolce & Gabbana",
+    "category": "polos",
+    "price": "S/ 130.00",
+    "tag": "Premium",
+    "sizes": ["S", "M"],
+    "image": "/img/Milano.png",
+    "description": "Logo DG entrelazado en relieve monocromático. Sofisticación italiana diseñada para destacar."
+  },
+  {
+    "id": 4,
+    "name": "Polo Armani Exchange NY/Milano",
+    "brand": "Armani Exchange",
+    "category": "polos",
+    "price": "S/ 115.00",
+    "tag": "Nuevo",
+    "sizes": ["M"],
+    "image": "/img/ArmaniExchange.png",
+    "description": "Branding horizontal oversized. Concepto urbano neoyorquino con la elegancia de Milán."
+  },
+  {
+    "id": 5,
+    "name": "Polo Armani Exchange Badge",
+    "brand": "Armani Exchange",
+    "category": "polos",
+    "price": "S/ 115.00",
+    "sizes": ["M"],
+    "image": "/img/ArmaniExchange_v1.png",
+    "description": "Parche distintivo AX en pecho sobre blanco impecable. Estilo minimalista de alto impacto."
+  },
+  {
+    "id": 6,
+    "name": "Polo Burberry Vintage Check",
+    "brand": "Burberry",
+    "category": "polos",
+    "price": "S/ 125.00",
+    "tag": "Edición Especial",
+    "sizes": ["M"],
+    "image": "/img/Burberry.png",
+    "description": "Detalle de patrón a cuadros icónico en hombros y bordado dorado del caballero real."
+  },
+  {
+    "id": 7,
+    "name": "Polo Calvin Klein Monogram Red",
+    "brand": "Calvin Klein",
+    "category": "polos",
+    "price": "S/ 110.00",
+    "tag": "Oferta",
+    "sizes": ["M"],
+    "image": "/img/CalvinKlein.png",
+    "description": "Caja de microtextura con monograma CK en rojo contraste sobre negro profundo."
+  },
+  {
+    "id": 8,
+    "name": "Polo Polo Ralph Lauren Black",
+    "brand": "Ralph Lauren",
+    "category": "polos",
+    "price": "S/ 120.00",
+    "tag": "Clásico",
+    "sizes": ["S"],
+    "image": "/img/RalphLauren..png",
+    "description": "El clásico atemporal con el pony bordado a mano. Algodón de alta durabilidad y ajuste impecable."
+  },
+  {
+    "id": 9,
+    "name": "Polo Tommy Hilfiger Essential",
+    "brand": "Tommy Hilfiger",
+    "category": "polos",
+    "price": "S/ 110.00",
+    "sizes": ["S"],
+    "image": "/img/TommyHilfiger.png",
+    "description": "Insignia icónica tricolor en el pecho. El estándar del estilo streetwear casual americano."
+  },
+  {
+    "id": 10,
+    "name": "Pack Shorts Streetwear Sports",
+    "brand": "Drop.peru",
+    "category": "shorts",
+    "price": "S/ 85.00",
+    "tag": "Más Vendido",
+    "sizes": ["S", "M"],
+    "image": "/img/Shorts.png",
+    "description": "Corte relajado arriba de la rodilla con pretina elastizada. Diseñados para máxima comodidad diaria."
+  }
+]
