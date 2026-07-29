@@ -9,11 +9,13 @@ import YapeModal from './components/YapeModal';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import CartModal from './components/CartModal';
+import Testimonials from './components/Testimonials';
 
 export default function App() {
   const [showYapeModal, setShowYapeModal] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
 
+  // Estados del Carrito de Compras
   const [cart, setCart] = useState([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [toastMessage, setToastMessage] = useState(null);
@@ -33,11 +35,12 @@ export default function App() {
       return [...prevCart, product];
     });
 
+    // Notificación Toast flotante silenciosa
     setToastMessage(`¡${product.name} (${product.selectedColor} - ${product.selectedSize}) añadido! 🛍️`);
     setTimeout(() => setToastMessage(null), 3000);
   };
 
-  // Modificar cantidad
+  // Modificar cantidad desde el carrito (+ / -)
   const updateQuantity = (index, newQuantity) => {
     if (newQuantity <= 0) {
       removeFromCart(index);
@@ -50,6 +53,7 @@ export default function App() {
     }
   };
 
+  // Eliminar producto del carrito
   const removeFromCart = (indexToRemove) => {
     setCart((prevCart) => prevCart.filter((_, index) => index !== indexToRemove));
   };
@@ -60,12 +64,14 @@ export default function App() {
     }`}>
       <ScrollToTop />
       
+      {/* Notificación Flotante de Producto Añadido */}
       {toastMessage && (
         <div className="fixed bottom-6 right-6 z-[70] bg-emerald-500 text-black font-extrabold text-xs uppercase tracking-wider px-5 py-3 rounded-2xl shadow-xl shadow-emerald-500/20 border border-emerald-400 flex items-center space-x-2 animate-bounce">
           <span>{toastMessage}</span>
         </div>
       )}
 
+      {/* Navegación Superior */}
       <Navbar 
         onOpenYape={() => setShowYapeModal(true)} 
         darkMode={darkMode} 
@@ -74,6 +80,7 @@ export default function App() {
         openCart={() => setIsCartOpen(true)}
       />
 
+      {/* Rutas Principales */}
       <div className="flex-grow">
         <Routes>
           <Route 
@@ -82,6 +89,7 @@ export default function App() {
               <>
                 <Hero darkMode={darkMode} />
                 <Catalog darkMode={darkMode} addToCart={addToCart} />
+                <Testimonials darkMode={darkMode} />
               </>
             } 
           />
@@ -90,8 +98,10 @@ export default function App() {
         </Routes>
       </div>
 
+      {/* Pie de Página */}
       <Footer darkMode={darkMode} onOpenYape={() => setShowYapeModal(true)} />
 
+      {/* Modales Flotantes Globales */}
       {showYapeModal && <YapeModal onClose={() => setShowYapeModal(false)} darkMode={darkMode} />}
       {isCartOpen && <CartModal cart={cart} updateQuantity={updateQuantity} removeFromCart={removeFromCart} onClose={() => setIsCartOpen(false)} darkMode={darkMode} />}
     </div>
