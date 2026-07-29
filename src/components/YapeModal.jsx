@@ -24,7 +24,7 @@ export default function YapeModal({ onClose }) {
 
         <div className="my-5 bg-white p-3 rounded-2xl max-w-[220px] mx-auto shadow-xl">
           <img
-            src="/img/yape-shel.jpeg"
+            src="/img/yape-qr.png"
             alt="QR Yape Drop.peru"
             className="w-full aspect-square object-contain"
             onError={(e) => {
