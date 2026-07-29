@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import CartModal from './components/CartModal';
 import Testimonials from './components/Testimonials';
+import NotFound from './components/NotFound';
 
 export default function App() {
   const [showYapeModal, setShowYapeModal] = useState(false);
@@ -59,7 +60,7 @@ export default function App() {
   };
 
   return (
-    <div className={`min-h-screen font-sans transition-colors duration-300 relative ${
+    <div className={`min-h-screen flex flex-col justify-between font-sans transition-colors duration-300 relative ${
       darkMode ? 'bg-black text-white selection:bg-zinc-800 selection:text-white' : 'bg-zinc-50 text-zinc-900 selection:bg-zinc-200 selection:text-black'
     }`}>
       <ScrollToTop />
@@ -95,6 +96,9 @@ export default function App() {
           />
           <Route path="/nosotros" element={<About darkMode={darkMode} />} />
           <Route path="/contacto" element={<Contact darkMode={darkMode} />} />
+
+          {/* Ruta para capturar cualquier URL inexistente (Página 404) */}
+          <Route path="*" element={<NotFound darkMode={darkMode} />} />
         </Routes>
       </div>
 

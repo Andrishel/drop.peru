@@ -8,7 +8,7 @@
     "tag": "3 x S/ 100 🔥",
     "sizes": ["S", "M"],
     "colors": ["Negro", "Blanco"],
-    "image": "/img/Prada.png",
+    "image": "/img/Prada.jpg",
     "description": "Relieve táctil premium en blanco puro. El equilibrio perfecto entre lujo minimalista y estética urbana."
   },
   {
@@ -20,7 +20,7 @@
     "tag": "3 x S/ 100 🔥",
     "sizes": ["S"],
     "colors": ["Negro", "Blanco"],
-    "image": "/img/Hugo.png",
+    "image": "/img/Hugo.jpg",
     "description": "Tipografía destacada en pecho sobre algodón negro denso. Estilo limpio y presencia imponente."
   },
   {
@@ -32,7 +32,7 @@
     "tag": "3 x S/ 100 🔥",
     "sizes": ["S", "M"],
     "colors": ["Negro", "Blanco"],
-    "image": "/img/Milano.png",
+    "image": "/img/Milano.jpg",
     "description": "Logo DG entrelazado en relieve monocromático. Sofisticación italiana diseñada para destacar."
   },
   {
@@ -44,7 +44,7 @@
     "tag": "3 x S/ 100 🔥",
     "sizes": ["M"],
     "colors": ["Negro", "Blanco"],
-    "image": "/img/ArmaniExchange.png",
+    "image": "/img/ArmaniExchange.jpg",
     "description": "Branding horizontal oversized. Concepto urbano neoyorquino con la elegancia de Milán."
   },
   {
@@ -56,7 +56,7 @@
     "tag": "3 x S/ 100 🔥",
     "sizes": ["M"],
     "colors": ["Negro", "Blanco"],
-    "image": "/img/ArmaniExchange_v1.png",
+    "image": "/img/ArmaniExchange_v1.jpg",
     "description": "Parche distintivo AX en pecho sobre blanco impecable. Estilo minimalista de alto impacto."
   },
   {
@@ -68,7 +68,7 @@
     "tag": "3 x S/ 100 🔥",
     "sizes": ["M"],
     "colors": ["Negro", "Blanco"],
-    "image": "/img/Burberry.png",
+    "image": "/img/Burberry.jpg",
     "description": "Detalle de patrón a cuadros icónico en hombros y bordado dorado del caballero real."
   },
   {
@@ -80,7 +80,7 @@
     "tag": "3 x S/ 100 🔥",
     "sizes": ["M"],
     "colors": ["Negro", "Blanco"],
-    "image": "/img/CalvinKlein.png",
+    "image": "/img/CalvinKlein.jpg",
     "description": "Caja de microtextura con monograma CK en rojo contraste sobre negro profundo."
   },
   {
@@ -92,7 +92,7 @@
     "tag": "3 x S/ 100 🔥",
     "sizes": ["S"],
     "colors": ["Negro", "Blanco"],
-    "image": "/img/RalphLauren..png",
+    "image": "/img/RalphLauren.jpg",
     "description": "El clásico atemporal con el pony bordado a mano. Algodón de alta durabilidad y ajuste impecable."
   },
   {
@@ -104,7 +104,7 @@
     "tag": "3 x S/ 100 🔥",
     "sizes": ["S"],
     "colors": ["Negro", "Blanco"],
-    "image": "/img/TommyHilfiger.png",
+    "image": "/img/TommyHilfiger.jpg",
     "description": "Insignia icónica tricolor en el pecho. El estándar del estilo streetwear casual americano."
   },
   {
@@ -116,7 +116,7 @@
     "tag": "PROMO 3 x S/ 75 🔥",
     "sizes": ["S", "M"],
     "colors": ["Negro", "Gris"],
-    "image": "/img/Shorts.png",
+    "image": "/img/Shorts.jpg",
     "description": "Corte relajado arriba de la rodilla con pretina elastizada. Diseñados para máxima comodidad diaria."
   }
 ]
